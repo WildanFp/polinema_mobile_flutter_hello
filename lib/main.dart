@@ -94,12 +94,15 @@ class _MyHomePageState extends State<MyHomePage> {
           // axis because Columns are vertical (the cross axis would be
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'Wildan Abdul Rachman Saleh'''
-              ' 2031710038',
-              
-            )
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("Wildan Abdul Rachman Saleh"),
+              ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Text("2031710038"),
+          ),
           ],
         ),
       ),
